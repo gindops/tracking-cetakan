@@ -1,0 +1,15 @@
+{
+  "name": "tracking-cetakan",
+  "version": "1.0.0",
+  "description": "Full stack tracking platform with Next.js, NestJS, Prisma, and Supabase",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm run start:dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:backend": "npm run build --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "prisma:generate": "npm run prisma:generate --prefix backend",
+    "prisma:migrate": "npm run prisma:migrate --prefix backend",
+    "prisma:push": "npm run prisma:push --prefix backend"
+  }
+}
